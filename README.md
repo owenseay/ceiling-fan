@@ -31,3 +31,4 @@ A requestAnimationFrame loop constantly monitors the difference between the `cur
 - `index.html`: Main structure.
 - `style.css`: Styling for the fan components, 3D perspective, and slider.
 - `script.js`: Logic for animation control, inertia calculation, and UI updates.
+# ceiling-fan
