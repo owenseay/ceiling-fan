@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceiling Fan Control</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="ceiling-container">
+            <div class="fan-assembly">
+                <div class="fan-motor"></div>
+                <div class="fan-blades">
+                    <div class="blade blade-1"></div>
+                    <div class="blade blade-2"></div>
+                    <div class="blade blade-3"></div>
+                    <div class="blade blade-4"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wall-control-panel">
+            <div class="switch-housing">
+                <input type="range" id="fan-speed" min="0" max="100" value="0" step="1" orient="vertical">
+                <label for="fan-speed" class="speed-label">HI — OFF</label>
+                <div class="status-indicator"></div>
+            </div>
+            <p class="instruction">Slide to control speed</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
