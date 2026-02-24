@@ -231,4 +231,17 @@ input[type=range][orient=vertical] {
     .switch-housing {
         transform: scale(0.8);
     }
+
+    input[type=range][orient=vertical]::-webkit-slider-thumb {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        -webkit-appearance: none;
+    }
+
+    input[type=range][orient=vertical]::-moz-range-thumb {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+    }
 }
