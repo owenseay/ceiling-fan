@@ -139,14 +139,10 @@ body {
 
 /* Custom Range Input for Vertical Slider */
 input[type=range][orient=vertical] {
-    writing-mode: bt-lr;
-    /* IE */
-    -webkit-appearance: slider-vertical;
-    /* WebKit */
-    appearance: slider-vertical;
-    width: 40px;
-    height: 140px;
-    padding: 0 5px;
+    width: 140px;
+    height: 40px;
+    transform: rotate(-90deg);
+    touch-action: none;
     cursor: pointer;
 }
 
